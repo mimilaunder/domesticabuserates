@@ -1,0 +1,57 @@
+CSS
+
+.menulink
+{ 
+  color: #0000FF;
+  cursor: pointer;
+}
+
+.menulink:hover 
+{ 
+  color: #FF0000;
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Corben', Georgia, Times, serif;
+}
+p, div {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+
+h2, h1 { 
+    text-shadow: 1px 1px 1px #ccc;
+    text-align: center;
+}
+
+body { 
+    background: url(cream_dust.png) repeat 0 0;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 3;
+}
+.main-content {
+    width: 50%;
+    float: left;
+}
+.aside {
+    width: 50%;
+    float: right;
+    background: url(ticks.png);
+}
+
+#left {
+    float:left;
+    width:50%;
+    border: 0px;
+}
+
+#right {
+    float:right;
+    width:50%;
+    border: 0px;
+}
+
+ 
